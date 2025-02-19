@@ -57,7 +57,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -4900258954935397149, guid: fe3d5f86843e44f449c5b2d107506bed, type: 2}
+  - {fileID: 8264500506613257848, guid: 7831010c30debde4e8700dc2560d5dcb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -101,8 +101,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PlayerName
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: fe3d5f86843e44f449c5b2d107506bed, type: 2}
-  m_sharedMaterial: {fileID: -4900258954935397149, guid: fe3d5f86843e44f449c5b2d107506bed, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7831010c30debde4e8700dc2560d5dcb, type: 2}
+  m_sharedMaterial: {fileID: 8264500506613257848, guid: 7831010c30debde4e8700dc2560d5dcb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -516473,6 +516473,7 @@ GameObject:
   - component: {fileID: 4039837813012604760}
   - component: {fileID: 3312279942076167568}
   - component: {fileID: 3129676856169175660}
+  - component: {fileID: 8186374424180346049}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -597969,6 +597970,20 @@ MonoBehaviour:
   m_SelectedFaces: 
   m_SelectedEdges: []
   m_SelectedVertices: 
+--- !u!114 &8186374424180346049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6485617188863295275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1669833591d16184b9e50f9574f646ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerName: Cull
+  layerIndex: 12
 --- !u!1 &6605147150259694108
 GameObject:
   m_ObjectHideFlags: 0
